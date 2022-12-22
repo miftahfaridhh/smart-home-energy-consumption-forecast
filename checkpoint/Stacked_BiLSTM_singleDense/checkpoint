@@ -1,0 +1,2 @@
+model_checkpoint_path: "Stacked_BiLSTM_singleDense"
+all_model_checkpoint_paths: "Stacked_BiLSTM_singleDense"
