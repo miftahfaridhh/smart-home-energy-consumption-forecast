@@ -1,0 +1,27 @@
+# Checkpoints and models
+checkpoint/
+*.pkl
+*.h5
+
+# Dataset (too large for git)
+dataset/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Results
+result/
+train_loss_plot/
+
+# Pickle data
+pickle/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
