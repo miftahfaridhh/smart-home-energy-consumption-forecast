@@ -17,9 +17,8 @@ from sklearn.ensemble import IsolationForest
 from telegrambotalarm import TelegramBot
 import traceback
 
-TOKEN = 'REDACTED_TOKEN'
-# MYID = '-836623843' #kenergy group
-MYID = '1246189043' #personal
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+MYID = os.getenv("TELEGRAM_CHAT_ID", "")
 
 bot = TelegramBot(TOKEN, MYID)
 
